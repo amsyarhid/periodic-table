@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 10px;
+  border: 1px solid rgba(127, 255, 255, 0.25);
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.name {
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.logout {
+  padding: 4px 10px;
+  border: 1px solid rgba(127, 255, 255, 0.75);
+  background: transparent;
+  color: rgba(127, 255, 255, 0.75);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.logout:hover {
+  background: rgba(0, 255, 255, 0.5);
+  color: #fff;
+}
+
+.logout:active {
+  background: rgba(0, 255, 255, 0.75);
+}

@@ -1,0 +1,16 @@
+.legend {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border: 1px solid rgba(127, 255, 255, 0.25);
+  background: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 12px;
+}
+
+.bar {
+  width: 140px;
+  height: 10px;
+  border-radius: 2px;
+}

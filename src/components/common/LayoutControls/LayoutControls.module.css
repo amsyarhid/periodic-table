@@ -1,0 +1,26 @@
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.button {
+  padding: 6px 12px;
+  border: 1px solid rgba(127, 255, 255, 0.75);
+  background: transparent;
+  color: rgba(127, 255, 255, 0.75);
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgba(0, 255, 255, 0.5);
+  color: #fff;
+}
+
+.button[aria-pressed='true'] {
+  background: rgba(0, 255, 255, 0.3);
+  color: #fff;
+}
