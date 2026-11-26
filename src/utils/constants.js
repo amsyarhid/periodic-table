@@ -49,3 +49,8 @@ export const GRID_LAYOUT = {
   spacingY: 250,
   spacingZ: 350,
 };
+
+export const TETRAHEDRON_LAYOUT = {
+  edgeLength: 1900,
+  rotationYDegrees: 15,
+};
